@@ -1,12 +1,6 @@
-import './App.css'
+import React from "react";
+import Auth from "./Auth";
 
-function App() {
+const App: React.FC = () => <Auth />;
 
-  return (
-    <>
-      <div className="text-center text-lg font-bold text-gray-800">hello</div>
-    </>
-  )
-}
-
-export default App
+export default App;
