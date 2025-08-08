@@ -1,8 +1,10 @@
+import './App.css'
+
 function App() {
 
   return (
     <>
-      <p>Hello</p>
+      <div className="text-center text-lg font-bold text-gray-800">hello</div>
     </>
   )
 }
